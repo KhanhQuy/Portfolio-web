@@ -1,0 +1,107 @@
+.HeroAboutUs {
+    background: linear-gradient(180deg, rgba(24, 31, 62, 0) 14.08%, #181F3E 81.2%), url('https://lh3.googleusercontent.com/pJk1S1IbCFaJs8-ROMpTLHGvpZ0UV03bxZTQEClEtoLLHwTin9IRIhnfW0WzamMZOvtj0JNzIcKcHkXcqXc37WdTr0QJmWfZG1_x3rSALUqDRzhUbkw1oJP75Lv0ynmbBrb_vwHYQ733PNtb5XLokf7HeTo3mPVpRqQk0Tpi_HluhClABhs0P_EZRpEWmAg4_Tt_pQPFvcSUuvpTIcK9mMHAsXlCbSbiQTFcKNkcDog6sX9h9jh0QCqY_5lp-1UzSrdDrOGFgV8GAEqByoCB79kK5y5Z8zx2RnQstcD2MwpBHk6lF84ss_nStK_wXUqvmh8_CqLYWu_Cpe8z14d9cTE8vqjVkCFQFJGbhMNWUSxlYoCPH-Tsnss7gzvAau4XK2NjBHtUUmgCtnn_NkZEvNS0Y9v9P0xPriF90bE5xf1HucBSlhbhlDc0I_A0EV5Cojx6XY9W7zTHI1_5ntG4RNNcBqfGrkqF8q14MGBM3cVEo2GShKtMjIKn1tyikubsQIkMftH4zR2ftsPtY8qqA4l7TDrw59ruflKTqaRCUOaDUFSK0jcQaDKbSwA3Uvza9-6smRQTE5QWVfy-1qPBOCFDs1ROoGgds35KyJ5PhIVSs86K4SjtZZAfW-KAQo1MlO7DSR0nbAvMXbw-EkKor-5IBH_oMw=w2560-h1366-no');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    bottom: -30px;
+    -webkit-clip-path: ellipse(918px 746px at 50% 10%);
+    clip-path: ellipse(876px 607px at 50% 10%);
+    box-shadow: 5px 10px;
+  }
+  .HeroAboutUsGroup {
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-gap:36px;
+  }
+  
+  .HeroAboutUsGroup {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 150px 50px;
+    text-align: center;
+  }
+  
+  .HeroAboutUs h2 {
+    margin-top: 290px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -0.1728px;
+
+    color: white;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  .HeroAboutUs p {
+    margin: -15px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* or 133% */
+    text-align: center;
+    letter-spacing: -0.108px;
+    color: rgba(255,255,255, 0.8);
+    opacity: 0;
+    animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  
+  
+  /* .HeroBecomeDriver a:hover {
+    background: white;
+    color: black;
+  } */
+
+  @keyframes HeroAnimation{
+    0%{
+        opacity:0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(10px);
+    }
+  }
+  
+  .ButtonBook {
+    margin-top: 10px;
+  }
+  
+  .HeroBecomeDriver svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .HeroBecomeDriver .Logos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 40px;
+    margin: 100px 0;
+    justify-items: center
+  
+  }
+  
+  @media (max-width : 640px){
+    .HeroBecomeDriver .Logos{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .DriverButtonGoogleplay{
+    margin-left: 30px;
+  }

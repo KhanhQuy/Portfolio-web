@@ -1,0 +1,181 @@
+.becomeDriverSection{
+    position: absolute;
+    background: url('../images/becomeADriver/section1/Group\(1\).svg');
+    background-size: 1500px 2000px;
+    background-position: center;
+    width: 100%;
+    height: 2000px;
+}
+
+.TitleSectionDriver{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #181F3E;
+    float: center;
+}
+.storyOne{
+    text-align: right;
+    height: 200px;
+    width: 174px;
+    margin: 243px 119px;
+}
+.storyTwo{
+    height: 200px;
+    width: 204px;
+    margin: -521px 942px;
+}
+.storyThree{
+    height: 200px;
+    width: 204px;
+    margin: 619px 902px;
+}
+.becomeDriverSection h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.1728px;
+    color: #181F3E;
+}
+
+.becomeDriverSection p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.1728px;
+    color: #181F3E;
+}
+.Ellipse1, .Ellipse2, .Ellipse3{
+    width: 30px;
+    height: 30px;
+    background: #09B3FF;
+    border-radius: 100%;
+}
+.Ellipse1{
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: -70px;
+}
+.Ellipse2{
+    margin-bottom: -50px;
+    margin-left: -60px;
+}
+.Ellipse3{
+    margin-bottom: -50px;
+    margin-left: -60px;
+    top: 140px;
+}
+
+.becomeDriverSection2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 76%;
+    margin-top: -39%;
+    margin-left: 12%;
+    justify-items: center;
+}
+.card1, .card2, .card3{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    width: 300px;
+    height: 380px;
+    text-align: center;
+}
+.becomeDriverSection2 img{
+   margin-top: 12%;
+   width: 172px;
+   height: 140px;
+}
+.becomeDriverSection2 h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.1728px;
+
+    color: #181F3E;
+}
+.becomeDriverSection2 p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.096px;
+    color: #747887;
+}
+.becomeDriverSection3{
+    height: 510px;
+    width: 620px;
+    float: right;
+    margin-top:100px;
+}
+.becomeDriverSection3 h1, h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.1728px;
+    color: #181F3E;
+}
+.becomeDriverSection3 h1{
+    font-size: 36px;
+    line-height: 35px;
+}
+
+
+.becomeDriverSection3 h2{
+    font-size: 18px;
+    line-height: 15px;
+}
+.Paperwork{
+    margin-top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    height:352px;
+    width:420px;
+}
+.Paperwork ul{
+    list-style-image: url('../images/becomeADriver/section1/check.svg');
+}
+.Paperwork li{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: -0.096px;
+
+    color: #747887;
+
+}
+.Paperwork p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.096px;
+    color: #747887;
+    }
+.Paperwork a{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.096px;
+    color: #09B3FF;
+}
+.PaperworkGroup {
+    margin-left: 7%;
+} 

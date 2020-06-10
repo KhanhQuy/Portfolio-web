@@ -1,0 +1,96 @@
+.section6{
+    
+    position: absolute;
+    width: 100%;
+    height: auto;
+    /* left: 115px; */
+    top: 4240px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    justify-items: center;
+}
+.section6 h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 49px;
+    /* or 102% */
+    letter-spacing: -0.144px;
+    
+    color: #181F3E;
+
+}
+.section6 p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: -0.108px;
+
+    color: #181F3E;
+}
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+}
+
+.item1 {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .item5 {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+}
+
+.btn-section6{
+    margin-right: -307px;
+    margin-top: -51px;
+    margin-bottom: 30px;
+    float: right;
+    margin-left: -93px;
+    width: 129px;
+    height: 40px;
+    /* left: 1242px; */
+    /* top: 4612.42px; */
+    border: 1px solid #09B3FF;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.btn-section6:hover{
+    border: 1px solid white;
+    background: #09B3FF;
+}
+
+.btn-section6 > a{
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    /* identical to box height, or 219% */
+    align-items: center;
+    text-align: center;
+    color: #181F3E;
+    
+}
+
+.btn-section6 > a:hover{
+
+    color: white;
+}
