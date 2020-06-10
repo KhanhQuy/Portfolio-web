@@ -1,0 +1,126 @@
+.FooterAboutUs{
+    position: absolute;
+    background: #262D4B;
+    height: 376px;
+    width: 100%;
+    top:2400px;
+    display:gird;
+    grid-template-rows: auto auto auto;
+}
+
+.Footer-grid-container-AboutUs{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.084px;
+    color: #9EA9CA;
+    margin: 1% 7% 4%;
+}
+
+.Footer-grid-container-AboutUs p{
+    font-weight: bold;
+}
+
+.footer-end-AboutUs {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 136% */
+    letter-spacing: -0.084px;
+
+    color: #9EA9CA;
+    margin: 7% ;
+}
+
+.socialmediaAboutUs{
+    float:right;
+}
+
+.socialmediaAboutUs > * {
+    margin: 0px 20px;
+}
+
+.ToripuFooterAboutUs{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto; 
+}
+
+.ToripuFooterAboutUs{
+    display: grid;
+    grid-template-rows: 40% 12% 12% 12% 12% 12%; 
+}
+.LegalAboutUs{
+    display: grid;
+    grid-template-rows: 40% 12% 12% 12% 12% 12%; 
+}
+.HelpAboutUs{
+    display: grid;
+    grid-template-rows: 40% 12% 12% 12% 12% 12%; 
+}
+
+.Footer-grid-container-AboutUs a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: -0.084px;
+
+    color: #9EA9CA;
+}
+.Rectangle-footer-AboutUs{
+    height: 1px;
+    width: 84%;
+    background: #FFFFFF;
+    opacity: 0.1;
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin: 14px 0 -60px 90px;
+}
+
+.BagdgeAboutUs{
+    margin: 4% 0px;
+    justify-self: end;
+}
+.BagdgeAboutUs select{
+    position: relative;
+    background-color: #30354A;
+    color: white;
+    padding: 12px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    margin-bottom: 19px;
+}
+.GooglePlayBadgeUSAboutUs{
+    margin-left:10px;
+}
+.AppStoreAboutUs{
+    margin-top: 30px;
+}
+.BagdgeAboutUs select:before{
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}

@@ -1,0 +1,74 @@
+.section2{
+    position: absolute;
+    top: 1467px;
+    left: 157px;
+    float: center;
+    /* max-width: 1440px; */
+}
+
+.field{
+    margin-top: 50px;
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    grid-auto-rows: 100px; 
+    grid-gap: 140px;
+    text-align: center;
+}
+
+.font{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.section2 h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    /* line-height: 48px; */
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -0.26px;
+    color: #181F3E;
+    margin-bottom: -20px;
+
+}
+
+.section2 h3{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20x ;
+    /* line-height: 32px; */
+    /* or 133% */
+    text-align: center;
+    letter-spacing: -0.108px;
+    color: #181F3E;
+}
+
+.field h4{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* or 229% */
+    letter-spacing: -0.2592px;
+
+    color: #181F3E;
+
+    font-size: 16x ;
+}
+
+.field p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    /* or 175% */
+    text-align: center;
+    letter-spacing: -0.096px;
+
+    color: #747887;
+}
